@@ -1,0 +1,20 @@
+{
+  "name": "resync",
+  "version": "0.0.1",
+  "bin": "./bin/resync.js",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "author": "arrowrowe <arrowrowe@gmail.com> (https://github.com/arrowrowe)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "1.1.1",
+    "log4js": "0.6.29"
+  },
+  "devDependencies": {
+    "eslint": "1.10.3"
+  }
+}
